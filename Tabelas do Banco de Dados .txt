@@ -1,0 +1,23 @@
+Tabelas do Banco de Dados E-commerce:
+
+- pedido
+	id(INT)
+	id_usuario(INT)
+
+- pedido_item
+	id(INT)
+	id_pedido(INT)
+	id_produto(INT)
+	quantidade(INT)
+	vl_unitario(DOUBLE)
+
+- produto
+	id(INT)
+	descricao(VARCHAR(50))
+	informacao(VARCHAR(255))
+	valor(DOUBLE)
+
+- usuario
+	id(INT)
+	usuario(VARCHAR(50))
+	senha(VARCHAR(8))
